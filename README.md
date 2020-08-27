@@ -15,7 +15,7 @@ The page which was to be designed was the conference page designed by Cindy Shin
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/emmanuellekamwa/newsweek/feature-branch/index.html)
+[Live Demo Link](https://raw.githack.com/emmanuellekamwa/Conference-page/feature-branch/main.html)
 
 ## Author
 
