@@ -161,8 +161,13 @@
     background-color: #d3d3d3;
 }
 
+.img {
+    padding-right: 280px;
+}
+
 .copyright {
-    padding-left: 100px;
+    min-width: 425px;
+    padding-left: 90px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -200,5 +205,15 @@
     .second-section p,
     .description {
         font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 453px) {
+    .top-footer {
+        height: 430px;
+    }
+
+    .img {
+        padding-left: 245px;
     }
 }
