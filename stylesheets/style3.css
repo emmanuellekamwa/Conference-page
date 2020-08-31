@@ -62,12 +62,14 @@
 .step,
 .price {
     color: #ec5242;
+    font-family: "cocogoose", sans-serif;
 }
 
 .head {
     width: 40%;
     border-radius: 25px;
     margin-left: 390px;
+    font-family: "cocogoose", sans-serif;
 }
 
 .cross-line {
@@ -84,12 +86,14 @@
 .prizes,
 .friday {
     border-right: 1px solid #dee2e6;
+    font-family: "cocogoose", sans-serif;
 }
 
 .zero,
 .days,
 .partner {
     border-left: 1px solid #dee2e6;
+    font-family: "cocogoose", sans-serif;
 }
 
 .p-border {
@@ -144,6 +148,11 @@
 .select-btn {
     background-color: #ec5242;
     margin-top: 50px;
+}
+
+.copyright,
+.card-body {
+    font-family: "cocogoose", sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
