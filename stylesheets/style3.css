@@ -156,10 +156,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .head {
-        margin-left: 230px;
-    }
-
     .grey-part {
         height: 40rem;
     }
