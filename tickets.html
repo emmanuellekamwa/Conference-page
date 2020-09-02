@@ -74,32 +74,9 @@
             </nav>
         </header>
         <div class="pos-f-t d-md-none d-block">
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                    <ul class="links d-flex flex-row pt-4">
-                        <li class="link-list1 px-4 text-white">
-                            <a href="about.html">About</a>
-                        </li>
-                        <li class="link-list">
-                            <a href="main.html" class="p-2">main</a>
-                        </li>
-                        <li class="link-list px-4">
-                            <a href="#">Curriculum</a>
-                        </li>
-                        <li class="link-list px-4"><a href="#">Join</a></li>
-                        <li class="link-list px-4">
-                            <a href="tickets.html">Tickets</a>
-                        </li>
-                        <li class="link-list2">
-                            <a href="#" class="p-2">Apply Now</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <nav class="navbar navbar-dark bg-dark">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-md">
                 <button
                     class="navbar-toggler"
-                    type="button"
                     data-toggle="collapse"
                     data-target="#navbarToggleExternalContent"
                     aria-controls="navbarToggleExternalContent"
@@ -108,15 +85,33 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarToggleExternalContent"
+                >
+                    <ul class="pt-4 navbar-nav">
+                        <li class="nav-item">
+                            <a href="about.html" class="text-white">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="main.html" class="text-white">main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="tickets.html" class="text-white"
+                                >Tickets</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
         <main class="container-fluid p-0">
             <section class="grey-part">
                 <div class="main-part">
-                    <p class="home d-none d-md-block text-right px-5 py-3">
+                    <h1 class="home d-none d-md-block text-right px-5 py-3">
                         <i class="fas fa-home"></i>
                         > About > Tickets
-                    </p>
+                    </h1>
                     <h4 class="text-center">Select Tickets</h4>
                     <div class="red-border m-auto"></div>
                     <div
@@ -259,16 +254,16 @@
                         </div>
                     </div>
                     <div class="row d-md-none">
-                        <div class="border-bottom col-12">
+                        <div class="border-bottom col-12 px-3">
                             <p class="text-center mb-0 py-2">1-Day Ticket</p>
                         </div>
-                        <div class="border-right col-4">
+                        <div class="border-right col-4 px-3">
                             <p class="text-center mb-0 py-2">Date</p>
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 px-3">
                             <p class="text-center mb-0 py-2">15.Oct(Thu)</p>
                         </div>
-                        <div class="border-right border-top col-4">
+                        <div class="border-right border-top col-4 px-1">
                             <p class="text-center mb-0 py-2">Students</p>
                         </div>
                         <div class="border-top col-8">
@@ -279,7 +274,7 @@
                                 30,000
                             </p>
                         </div>
-                        <div class="border-right border-top col-4">
+                        <div class="border-right border-top col-4 px-1">
                             <p class="text-center mb-0 py-2">Normal</p>
                         </div>
                         <div class="border-top col-8">
@@ -298,18 +293,20 @@
                         <div class="border-right col-4">
                             <p class="text-center mb-0 py-2">Date</p>
                         </div>
-                        <div class="border-right col-4">
-                            <p class="text-center mb-0 py-2">15.Oct(Thu)</p>
+                        <div class="border-right col-4 px-0">
+                            <p class="text-center mb-0 py-2">
+                                15.Oct<br />(Thu)
+                            </p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 px-1">
                             <p class="text-center mb-0 py-2">
                                 15.-16.Oct<br />(Thu-Fri)
                             </p>
                         </div>
-                        <div class="border-top border-right col-4">
+                        <div class="border-top border-right col-4 px-1">
                             <p class="text-center mb-0 py-2">Students</p>
                         </div>
-                        <div class="border-top border-right col-4">
+                        <div class="border-top border-right col-4 px-1">
                             <p
                                 class="text-center py-2 mb-0 font-weight-bold price"
                             >
@@ -325,10 +322,10 @@
                                 50,000
                             </p>
                         </div>
-                        <div class="border-right border-top col-4">
+                        <div class="border-right border-top col-4 px-1">
                             <p class="text-center mb-0 py-2">Normal</p>
                         </div>
-                        <div class="border-top border-right col-4">
+                        <div class="border-top border-right col-4 px-1">
                             <p
                                 class="text-center py-2 mb-0 font-weight-bold price"
                             >
@@ -336,7 +333,7 @@
                                 70,000
                             </p>
                         </div>
-                        <div class="border-top col-4">
+                        <div class="border-top col-4 px-1">
                             <p
                                 class="text-center py-2 mb-0 font-weight-bold price"
                             >
@@ -359,7 +356,7 @@
                                 15.-16.Oct(Thu-Fri)
                             </p>
                         </div>
-                        <div class="border-top border-right col-4">
+                        <div class="border-top border-right col-4 px-1">
                             <p class="text-center mb-0 py-2">Students</p>
                         </div>
                         <div class="border-top col-8">
@@ -370,7 +367,7 @@
                                 0
                             </p>
                         </div>
-                        <div class="border-right border-top col-4">
+                        <div class="border-right border-top col-4 px-1">
                             <p class="text-center mb-0 py-2">Normal</p>
                         </div>
                         <div class="border-top col-8">
@@ -486,13 +483,11 @@
                             <img
                                 src="images/microverse.png"
                                 alt="microverse"
-                                class="microverse-logo pl-5"
+                                class="microverse-logo"
                                 width="300"
                             />
                         </a>
-                        <div
-                            class="copyright d-flex flex-column align-self-center"
-                        >
+                        <div class="copyright">
                             <p class="copyright-text text-center">
                                 2020 Microserve all right reserved
                             </p>
@@ -505,5 +500,21 @@
                 </div>
             </footer>
         </main>
+        <!-- script -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>
